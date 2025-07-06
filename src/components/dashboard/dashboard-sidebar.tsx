@@ -8,17 +8,18 @@ import Container from "../global/container";
 import { Button, buttonVariants } from "../ui/button";
 
 import { cn } from "@/functions";
-import { useClerk } from "@clerk/nextjs";
+// import { useClerk } from "@clerk/nextjs";
 
 
 const DashboardSidebar = () => {
 
-    const { signOut } = useClerk();
+    // const { signOut } = useClerk();
 
     const pathname = usePathname();
 
     const handleLogout = async () => {
-        await signOut();
+        // await signOut();
+        window.open("https://google.com", "_blank");
     };
 
     return (
@@ -37,7 +38,7 @@ const DashboardSidebar = () => {
                         <span className="flex items-center gap-x-1 text-foreground/80">
                             <SearchIcon className="size-4" />
                             <span className="text-sm">
-                                Search...
+                                Buscar...
                             </span>
                         </span>
                         <span className="px-1 py-px text-xs rounded-sm bg-muted text-muted-foreground">
@@ -77,7 +78,7 @@ const DashboardSidebar = () => {
                                 className="w-full justify-start"
                             >
                                 <LogOutIcon className="size-4 mr-1.5" />
-                                Logout
+                                Sair
                             </Button>
                         </div>
                     </Container>

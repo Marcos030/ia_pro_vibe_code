@@ -13,8 +13,8 @@ export const SIDEBAR_LINKS: Link[] = [
         icon: ChartPieIcon,
     },
     {
-        href: "/dashboard/campaigns",
-        label: "Campaigns",
+        href: "/dashboard/projetos",
+        label: "Projetos",
         icon: MegaphoneIcon
     },
     {
@@ -23,63 +23,64 @@ export const SIDEBAR_LINKS: Link[] = [
         icon: LineChartIcon
     },
     {
-        href: "/dashboard/posts",
-        label: "Posts",
+        href: "/dashboard/agentes",
+        label: "Agentes IA",
         icon: MessageSquareTextIcon
     },
     {
-        href: "/dashboard/engagement",
-        label: "Engagement",
+        href: "/dashboard/performance",
+        label: "Performance",
         icon: UsersIcon
     },
     {
         href: "/dashboard/billing",
-        label: "Billing",
+        label: "Faturamento",
         icon: CreditCardIcon
     },
     {
         href: "/dashboard/settings",
-        label: "Settings",
+        label: "Configurações",
         icon: SettingsIcon
     },
 ];
 
 export const FOOTER_LINKS = [
     {
-        title: "Product",
+        title: "Serviços",
         links: [
-            { name: "Home", href: "/" },
-            { name: "Features", href: "/" },
-            { name: "Pricing", href: "/" },
-            { name: "Contact", href: "/" },
-            { name: "Download", href: "/" },
+            { name: "Consultoria", href: "https://google.com" },
+            { name: "Implementação", href: "https://google.com" },
+            { name: "Soluções Enterprise", href: "https://google.com" },
+            { name: "Suporte", href: "https://google.com" },
+            { name: "Treinamentos", href: "https://google.com" },
         ],
     },
     {
-        title: "Resources",
+        title: "Recursos",
         links: [
-            { name: "Blog", href: "/blog" },
-            { name: "Help Center", href: "/help-center" },
-            { name: "Community", href: "/community" },
-            { name: "Guides", href: "/guides" },
+            { name: "Blog", href: "https://google.com" },
+            { name: "Cases de Sucesso", href: "https://google.com" },
+            { name: "Documentação", href: "https://google.com" },
+            { name: "Webinars", href: "https://google.com" },
+            { name: "FAQ", href: "https://google.com" },
+        ],
+    },
+    {
+        title: "Empresa",
+        links: [
+            { name: "Sobre Nós", href: "https://google.com" },
+            { name: "Equipe", href: "https://google.com" },
+            { name: "Carreiras", href: "https://google.com" },
+            { name: "Contato", href: "https://google.com" },
         ],
     },
     {
         title: "Legal",
         links: [
-            { name: "Privacy", href: "/privacy" },
-            { name: "Terms", href: "/terms" },
-            { name: "Cookies", href: "/cookies" },
-        ],
-    },
-    {
-        title: "Developers",
-        links: [
-            { name: "API Docs", href: "/api-docs" },
-            { name: "SDKs", href: "/sdks" },
-            { name: "Tools", href: "/tools" },
-            { name: "Open Source", href: "/open-source" },
-            { name: "Changelog", href: "/changelog" },
+            { name: "Privacidade", href: "https://google.com" },
+            { name: "Termos de Uso", href: "https://google.com" },
+            { name: "Cookies", href: "https://google.com" },
+            { name: "LGPD", href: "https://google.com" },
         ],
     },
 ];

@@ -1,3 +1,10 @@
+// AI_GENERATED_CODE_START
+// [AI Generated] Data: 19/03/2024
+// Descrição: Atualização dos planos para serviços de consultoria de IA da Expert AI
+// Gerado por: Cursor AI
+// Versão: TypeScript 4.9.5
+// AI_GENERATED_CODE_END
+
 type PLAN = {
     id: string;
     title: string;
@@ -12,60 +19,60 @@ type PLAN = {
 
 export const PLANS: PLAN[] = [
     {
-        id: "free",
-        title: "Free",
-        desc: "Get started with essential tools for social media content creation",
+        id: "consultoria",
+        title: "Consultoria Básica",
+        desc: "Diagnóstico inicial e roadmap para implementação de IA no seu negócio",
         monthlyPrice: 0,
         yearlyPrice: 0,
-        buttonText: "Get Started",
+        buttonText: "Agendar Consultoria",
         features: [
-            "Basic AI content generation",
-            "4 social media integrations",
-            "Community support",
-            "1 project limit",
-            "Standard analytics",
-            "Basic image generation"
+            "Análise inicial do seu negócio",
+            "Identificação de oportunidades de IA",
+            "Roadmap de implementação",
+            "1 sessão de consultoria (1h)",
+            "Relatório executivo",
+            "Recomendações iniciais"
         ],
-        link: "https://stripe.com/free-plan-link"
+        link: "/contact"
     },
     {
-        id: "pro",
-        title: "Pro",
-        desc: "Unlock advance features for enhanced content and strategy",
-        monthlyPrice: 10,
-        yearlyPrice: 120,
-        badge: "Most Popular",
-        buttonText: "Upgrade to Pro",
+        id: "implementacao",
+        title: "Implementação Completa",
+        desc: "Desenvolvimento e implementação de agentes inteligentes personalizados",
+        monthlyPrice: 2500,
+        yearlyPrice: 25000,
+        badge: "Mais Popular",
+        buttonText: "Solicitar Orçamento",
         features: [
-            "Advanced AI content generation",
-            "10 social media integrations",
-            "Priority email support",
-            "10 project limit",
-            "Enhanced analytics & insights",
-            "Pro model image generation",
-            "Team collaboration tools",
-            "Custom branding options"
+            "Diagnóstico completo do negócio",
+            "Desenvolvimento de agentes IA customizados",
+            "Integração com sistemas existentes",
+            "Treinamento da equipe",
+            "Suporte técnico por 6 meses",
+            "Monitoramento e otimização",
+            "Documentação completa",
+            "Sessões de acompanhamento"
         ],
-        link: "https://stripe.com/pro-plan-link"
+        link: "/contact"
     },
     {
         id: "enterprise",
-        title: "Enterprise",
-        desc: "Tailored solutions for large organizations and agencies",
-        monthlyPrice: 15,
-        yearlyPrice: 180,
-        badge: "Contact Sales",
-        buttonText: "Upgrade to Enterprise",
+        title: "Solução Enterprise",
+        desc: "Soluções corporativas completas com suporte dedicado e escalabilidade",
+        monthlyPrice: 5000,
+        yearlyPrice: 50000,
+        badge: "Enterprise",
+        buttonText: "Falar com Especialista",
         features: [
-            "Unlimited AI content generation",
-            "All social media integrations",
-            "Dedicated account manager",
-            "Unlimited projects",
-            "Custom analytics & reporting",
-            "Enterprise-grade security",
-            "Free updates",
-            // "24/7 priority support"
+            "Consultoria estratégica completa",
+            "Múltiplos agentes IA integrados",
+            "Gerente de conta dedicado",
+            "Suporte 24/7 prioritário",
+            "Escalabilidade garantida",
+            "Compliance e segurança avançados",
+            "Atualizações e melhorias contínuas",
+            "ROI garantido"
         ],
-        link: "https://stripe.com/enterprise-plan-link"
+        link: "/contact"
     }
 ];

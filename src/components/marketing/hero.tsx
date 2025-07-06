@@ -1,3 +1,10 @@
+// AI_GENERATED_CODE_START
+// [AI Generated] Data: 19/03/2024
+// Descrição: Restaurando o componente BlurText no hero após correção
+// Gerado por: Cursor AI
+// Versão: React 18.2.0
+// AI_GENERATED_CODE_END
+
 import { ArrowRightIcon } from "lucide-react";
 import Link from "next/link";
 import { BlurText } from "../ui/blur-text";
@@ -19,33 +26,35 @@ const Hero = () => {
                         </div>
                     </div>
                     <span className="inline-flex items-center justify-center gap-2 animate-text-gradient animate-background-shine bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-sm text-transparent">
-                        Build for the future
+                        Transforme seu negócio
                         <span className="text-xs text-secondary-foreground px-1.5 py-0.5 rounded-full bg-gradient-to-b from-foreground/20 to-foreground/10 flex items-center justify-center">
-                            What&apos;s new
+                            Com IA
                             <ArrowRightIcon className="w-3.5 h-3.5 ml-1 text-foreground/50" />
                         </span>
                     </span>
                 </div>
             </Container>
+            
             <BlurText
-                word={"Your ultimate social media\n marketing tool"}
+                word={"Consultoria e Implementação\nde Agentes Inteligentes"}
                 className="text-3xl sm:text-5xl lg:text-6xl xl:text-7xl bg-gradient-to-br from-foreground to-foreground/60 bg-clip-text text-transparent py-2 md:py-0 lg:!leading-snug font-medium racking-[-0.0125em] mt-6 font-heading"
             />
+            
             <Container delay={0.1}>
                 <p className="text-sm sm:text-base lg:text-lg mt-4 text-accent-foreground/60 max-w-2xl mx-auto">
-                    Elevate your social media presense with AI-powered content creation and scheduling. <span className="hidden sm:inline">Luro is the all-in-one solution for your social media marketing needs.</span>
+                    Transforme seu negócio com a Expert AI. Consultoria especializada em Inteligência Artificial e desenvolvimento de agentes inteligentes customizados. <span className="hidden sm:inline">Automatize processos e aumente sua produtividade com IA.</span>
                 </p>
             </Container>
             <Container delay={0.2}>
                 <div className="flex items-center justify-center md:gap-x-6 mt-8">
                     <Button asChild size="lg">
-                        <Link href="/app">
-                            Start for free
+                        <Link href="https://google.com" target="_blank" rel="noopener noreferrer">
+                            Solicitar Consultoria
                         </Link>
                     </Button>
                     <Button asChild size="lg" variant="outline" className="hidden md:flex">
-                        <Link href="#">
-                            How it works
+                        <Link href="https://google.com" target="_blank" rel="noopener noreferrer">
+                            Conheça Nossos Serviços
                         </Link>
                     </Button>
                 </div>

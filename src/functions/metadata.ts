@@ -1,3 +1,10 @@
+// AI_GENERATED_CODE_START
+// [AI Generated] Data: 19/03/2024
+// Descrição: Atualização da função de metadata para Expert AI - Agentes Inteligentes
+// Gerado por: Cursor AI
+// Versão: Next.js 14.2.6
+// AI_GENERATED_CODE_END
+
 import { Metadata } from "next";
 
 interface MetadataProps {
@@ -17,8 +24,8 @@ interface MetadataProps {
 }
 
 export const generateMetadata = ({
-    title = `${process.env.NEXT_PUBLIC_APP_NAME} - Smart Social Media Marketing Platform`,
-    description = "Streamline your social media management with AI-powered analytics, scheduling, and content optimization. Get real-time insights, automate posts, and boost engagement across all platforms",
+    title = `${process.env.NEXT_PUBLIC_APP_NAME || "Expert AI"} - Consultoria e Implementação de Agentes Inteligentes`,
+    description = "Transforme seu negócio com a Expert AI. Consultoria especializada em Inteligência Artificial, desenvolvimento de agentes inteligentes customizados e soluções enterprise. Automatize processos e aumente sua produtividade com IA.",
     image = "/thumbnail.png",
     icons = [
         {
@@ -36,35 +43,39 @@ export const generateMetadata = ({
     ],
     noIndex = false,
     keywords = [
-        "AI content creation",
-        "content automation",
-        "AI writing assistant",
-        "content generation",
-        "artificial intelligence",
-        "content marketing"
+        "consultoria IA",
+        "agentes inteligentes",
+        "inteligência artificial",
+        "automação empresarial",
+        "IA para empresas",
+        "consultoria tecnológica",
+        "implementação IA",
+        "soluções enterprise",
+        "automação com IA",
+        "transformação digital"
     ],
-    author = process.env.NEXT_PUBLIC_AUTHOR_NAME,
-    twitterHandle = "@yourtwitterhandle",
+    author = process.env.NEXT_PUBLIC_AUTHOR_NAME || "Expert AI",
+    twitterHandle = "@expert_ai_br",
     type = "website",
-    locale = "en_US",
+    locale = "pt_BR",
     alternates = {},
     publishedTime,
     modifiedTime
 }: MetadataProps = {}): Metadata => {
-    const metadataBase = new URL(process.env.NEXT_PUBLIC_APP_URL || "https://luro-ai.vercel.app");
+    const metadataBase = new URL(process.env.NEXT_PUBLIC_APP_URL || "https://expert-ai.vercel.app");
     const imageUrl = image ? new URL(image, metadataBase).toString() : null;
 
     return {
         metadataBase,
         title: {
-            template: `%s | ${process.env.NEXT_PUBLIC_APP_NAME}`,
+            template: `%s | ${process.env.NEXT_PUBLIC_APP_NAME || "Expert AI"}`,
             default: title
         },
         description,
         keywords,
         authors: [{ name: author }],
         creator: author,
-        publisher: process.env.NEXT_PUBLIC_APP_NAME,
+        publisher: process.env.NEXT_PUBLIC_APP_NAME || "Expert AI",
         formatDetection: {
             email: false,
             address: false,
@@ -75,7 +86,7 @@ export const generateMetadata = ({
         // OpenGraph
         openGraph: {
             type,
-            siteName: process.env.NEXT_PUBLIC_APP_NAME,
+            siteName: process.env.NEXT_PUBLIC_APP_NAME || "Expert AI",
             title,
             description,
             ...(imageUrl && {

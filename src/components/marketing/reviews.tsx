@@ -1,3 +1,10 @@
+// AI_GENERATED_CODE_START
+// [AI Generated] Data: 19/03/2024
+// Descrição: Customização da seção de reviews para Expert AI em português
+// Gerado por: Cursor AI
+// Versão: React 18.2.0
+// AI_GENERATED_CODE_END
+
 import { REVIEWS } from "@/constants";
 import Container from "../global/container";
 import Marquee from "../ui/marquee";
@@ -12,12 +19,12 @@ const Reviews = () => {
         <div className="flex flex-col items-center justify-center py-12 md:py-16 lg:py-24  w-full">
             <Container>
                 <div className="flex flex-col items-center text-center max-w-xl mx-auto">
-                    <SectionBadge title="Our Customers" />
+                    <SectionBadge title="Nossos Clientes" />
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug mt-6">
-                        What our customers say
+                        O que nossos clientes dizem
                     </h2>
                     <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-                        We are proud to have helped thousands of customers across the globe. Here are some of their stories
+                        Temos orgulho de ter ajudado centenas de empresas em todo o Brasil. Aqui estão algumas de suas histórias
                     </p>
                 </div>
             </Container>

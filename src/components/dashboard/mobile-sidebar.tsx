@@ -7,19 +7,20 @@ import {
     SheetTrigger,
 } from "@/components/ui/sheet";
 import { SIDEBAR_LINKS } from "@/constants/links";
-import { useClerk } from "@clerk/nextjs";
+// import { useClerk } from "@clerk/nextjs";
 import { LogOutIcon, MenuIcon, SearchIcon } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const MobileSidebar = () => {
 
-    const { signOut } = useClerk();
+    // const { signOut } = useClerk();
 
     const pathname = usePathname();
 
     const handleLogout = async () => {
-        await signOut();
+        // await signOut();
+        window.open("https://google.com", "_blank");
     };
 
     return (
@@ -42,7 +43,7 @@ const MobileSidebar = () => {
                         >
                             <SearchIcon className="size-4" />
                             <span className="text-sm">
-                                Search...
+                                Buscar...
                             </span>
                         </Button>
                         <ul className="w-full space-y-2 py-5">
@@ -76,7 +77,7 @@ const MobileSidebar = () => {
                                 onClick={handleLogout}
                             >
                                 <LogOutIcon className="size-4 mr-1.5" />
-                                Logout
+                                Sair
                             </Button>
                         </div>
                     </div>

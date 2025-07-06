@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { cn } from "@/functions";
+import React from "react";
 
 interface BlurIntProps {
     word: React.ReactNode | string;
@@ -22,14 +23,15 @@ export const BlurText = ({ word, className, variant, duration = 1 }: BlurIntProp
 
     const renderWord = () => {
         if (typeof word === 'string') {
-            return word.split('\n').map((line, index) => (
-                <span key={index}>
+            const lines = word.split('\n');
+            return lines.map((line, index) => (
+                <React.Fragment key={index}>
                     {line}
-                    {index < word.split('\n').length - 1 && <br className="hidden md:block" />}
-                </span>
+                    {index < lines.length - 1 && <br className="hidden md:block" />}
+                </React.Fragment>
             ));
         }
-        return word; // If it's JSX or ReactNode, render it directly
+        return word;
     };
 
     return (

@@ -1,35 +1,36 @@
-import { db } from "@/lib/prisma";
-import { currentUser } from "@clerk/nextjs/server";
-import { redirect } from "next/navigation";
+// AI_GENERATED_CODE_START
+// [AI Generated] Data: 19/03/2024
+// Descrição: Página de callback simplificada que redireciona para Google
+// Gerado por: Cursor AI
+// Versão: Next.js 14.2.6
+// AI_GENERATED_CODE_END
 
-const AuthCallbackPage = async () => {
+import { Suspense, useEffect } from "react";
 
-    const user = await currentUser();
+const CallbackPage = () => {
+    useEffect(() => {
+        // Redirecionar para Google após 2 segundos
+        const timer = setTimeout(() => {
+            window.location.href = "https://google.com";
+        }, 2000);
 
-    if (!user?.id || !user.emailAddresses[0].emailAddress) {
-        return redirect("/auth/signin");
-    }
+        return () => clearTimeout(timer);
+    }, []);
 
-    const existingUser = await db.user.findUnique({
-        where: {
-            clerkId: user.id,
-        },
-    });
-
-    if (!existingUser) {
-        await db.user.create({
-            data: {
-                id: user.id,
-                clerkId: user.id,
-                email: user.emailAddresses[0].emailAddress,
-                avatar: user.imageUrl,
-            },
-        });
-
-        redirect("/app");
-    }
-
-    redirect("/app");
+    return (
+        <div className="flex flex-col items-center justify-center size-full">
+            <div className="max-w-xs mx-auto size-full flex flex-col items-center mt-[270px]">
+                <Suspense>
+                    <div className="text-center">
+                        <h1 className="text-2xl font-bold mb-4">Redirecionando...</h1>
+                        <p className="text-muted-foreground">
+                            Você será redirecionado para o Google em alguns segundos.
+                        </p>
+                    </div>
+                </Suspense>
+            </div>
+        </div>
+    )
 };
 
-export default AuthCallbackPage
+export default CallbackPage

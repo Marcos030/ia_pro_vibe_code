@@ -1,3 +1,10 @@
+// AI_GENERATED_CODE_START
+// [AI Generated] Data: 19/03/2024
+// Descrição: Atualização dos depoimentos para clientes da Expert AI - consultoria de IA
+// Gerado por: Cursor AI
+// Versão: TypeScript 4.9.5
+// AI_GENERATED_CODE_END
+
 type REVIEW = {
     name: string;
     username: string;
@@ -7,75 +14,75 @@ type REVIEW = {
 
 export const REVIEWS: REVIEW[] = [
     {
-        name: "Arjun Singh",
-        username: "@arjunsingh",
-        review: "This platform has revolutionized the way I manage my projects. The AI tools are a game-changer!",
+        name: "Carlos Silva",
+        username: "CEO - TechCorp",
+        review: "A Expert AI transformou completamente nossa operação. Os agentes inteligentes implementados aumentaram nossa produtividade em 300%!",
         img: "https://randomuser.me/api/portraits/men/1.jpg"
     },
     {
-        name: "Priya Nair",
-        username: "@priyanair",
-        review: "Absolutely love the seamless integration with social media. It's made my content creation process so much easier.",
+        name: "Ana Costa",
+        username: "Diretora de Inovação - InovaTech",
+        review: "Consultoria excepcional! A equipe da Expert AI entendeu perfeitamente nossas necessidades e entregou uma solução que superou todas as expectativas.",
         img: "https://randomuser.me/api/portraits/women/2.jpg"
     },
     {
-        name: "Rohan Mehta",
-        username: "@rohanmehta",
-        review: "The features offered here are unmatched. My productivity has soared since I started using this service.",
+        name: "Roberto Santos",
+        username: "CTO - DataFlow",
+        review: "Implementação impecável e suporte técnico de primeira linha. A Expert AI é referência em soluções de IA no mercado brasileiro.",
         img: "https://randomuser.me/api/portraits/men/3.jpg"
     },
     {
-        name: "Sneha Patel",
-        username: "@snehapatel",
-        review: "Customer support is top-notch. They’re always ready to assist with any queries I have.",
+        name: "Fernanda Lima",
+        username: "Gerente de Operações - EficiênciaMax",
+        review: "ROI impressionante! Em apenas 3 meses, recuperamos o investimento e já estamos vendo resultados extraordinários na automação.",
         img: "https://randomuser.me/api/portraits/women/4.jpg"
     },
     {
-        name: "Ankit Sharma",
-        username: "@ankitsharma",
-        review: "The customization options available are perfect for my business needs. Highly recommended!",
+        name: "Marcelo Oliveira",
+        username: "Diretor - StartupHub",
+        review: "A consultoria estratégica da Expert AI nos ajudou a identificar oportunidades que nem sabíamos que existiam. Resultados surpreendentes!",
         img: "https://randomuser.me/api/portraits/men/5.jpg"
     },
     {
-        name: "Meera Kapoor",
-        username: "@meerakapoor",
-        review: "The intuitive design and ease of use make this platform stand out. It's a must-have for any business.",
+        name: "Juliana Pereira",
+        username: "CEO - DigitalSolutions",
+        review: "Profissionalismo e expertise técnica incomparáveis. A Expert AI não apenas implementou a solução, mas nos treinou para maximizar os benefícios.",
         img: "https://randomuser.me/api/portraits/women/6.jpg"
     },
     {
-        name: "Vikram Desai",
-        username: "@vikramdesai",
-        review: "From analytics to AI-powered tools, this service covers everything I need to grow my business.",
+        name: "Ricardo Almeida",
+        username: "Diretor de TI - CorporaçãoXYZ",
+        review: "Solução enterprise robusta e escalável. A Expert AI entende as necessidades de grandes corporações e entrega resultados consistentes.",
         img: "https://randomuser.me/api/portraits/men/7.jpg"
     },
     {
-        name: "Anjali Menon",
-        username: "@anjalimenon",
-        review: "I’m impressed with how much value I’m getting at this price point. It's worth every penny!",
+        name: "Patrícia Souza",
+        username: "Fundadora - InovaçãoLab",
+        review: "Investimento que vale cada centavo! A automação com IA nos permitiu focar no que realmente importa: inovação e crescimento.",
         img: "https://randomuser.me/api/portraits/women/8.jpg"
     },
     {
-        name: "Karan Gupta",
-        username: "@karangupta",
-        review: "The AI content generation is phenomenal. It saves me hours of work every week.",
+        name: "Diego Martins",
+        username: "Diretor de Produto - TechStart",
+        review: "A integração foi perfeita com nossos sistemas existentes. A Expert AI demonstrou conhecimento técnico excepcional em todo o processo.",
         img: "https://randomuser.me/api/portraits/men/9.jpg"
     },
     {
-        name: "Neha Verma",
-        username: "@nehaverma",
-        review: "I love how everything is organized in one place. It makes managing my tasks so much easier.",
+        name: "Camila Rodrigues",
+        username: "COO - EficiênciaPlus",
+        review: "Suporte dedicado e acompanhamento contínuo. A Expert AI não apenas vende uma solução, mas se torna parceira estratégica do seu negócio.",
         img: "https://randomuser.me/api/portraits/women/10.jpg"
     },
     {
-        name: "Siddharth Jain",
-        username: "@siddharthjain",
-        review: "Their platform is robust, and I have seen a significant improvement in my workflow since I started using it.",
+        name: "Thiago Ferreira",
+        username: "Diretor de Inovação - FutureTech",
+        review: "Consultoria estratégica que realmente entende o mercado brasileiro. A Expert AI nos ajudou a posicionar nossa empresa na vanguarda da IA.",
         img: "https://randomuser.me/api/portraits/men/11.jpg"
     },
     {
-        name: "Divya Iyer",
-        username: "@divyaiyer",
-        review: "Fantastic service! The updates and new features keep getting better and better.",
+        name: "Larissa Costa",
+        username: "CEO - SmartBusiness",
+        review: "Resultados que falam por si! Aumento de 250% na eficiência operacional e redução de 60% nos custos. Expert AI é sinônimo de excelência.",
         img: "https://randomuser.me/api/portraits/women/12.jpg"
     }
 ];

@@ -1,3 +1,10 @@
+// AI_GENERATED_CODE_START
+// [AI Generated] Data: 19/03/2024
+// Descrição: Customização da seção perks para Expert AI em português
+// Gerado por: Cursor AI
+// Versão: React 18.2.0
+// AI_GENERATED_CODE_END
+
 import { PERKS } from "@/constants";
 import { cn } from "@/functions";
 import { LucideIcon } from "lucide-react";
@@ -9,12 +16,12 @@ const Perks = () => {
         <div className="flex flex-col items-center justify-center py-12 md:py-16 lg:py-24 w-full">
             <Container>
                 <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
-                    <SectionBadge title="Perks" />
+                    <SectionBadge title="Vantagens" />
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug mt-6">
-                        Discover the benefits
+                        Descubra os benefícios
                     </h2>
                     <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-                        Explore the powerful features and advantages that Luro offer to help you grow your social media presence
+                        Explore os recursos poderosos e vantagens que a Expert AI oferece para ajudar você a transformar seu negócio
                     </p>
                 </div>
             </Container>

@@ -1,7 +1,7 @@
 "use client"
 
 import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu";
-import { CalendarRangeIcon, CircleHelp, HashIcon, Newspaper, UsersIcon } from 'lucide-react';
+import { CalendarRangeIcon, CircleHelp, HashIcon, Newspaper, UsersIcon, BrainCircuitIcon, RocketIcon, ShieldCheckIcon } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 import Icons from "../global/icons";
@@ -18,71 +18,78 @@ const Menu = () => {
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
-                    <Link href="/docs" legacyBehavior passHref>
+                    <Link href="https://google.com" target="_blank" legacyBehavior passHref>
                         <NavigationMenuLink className="h-10 px-4 py-2 text-sm font-normal rounded-md text-muted-foreground hover:text-foreground w-max hover:bg-none">
-                            How it works
+                            Como Funciona
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <NavigationMenuTrigger className="text-muted-foreground hover:text-foreground">
-                        Features
+                        Serviços
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="grid rounded-3xl gap-3 p-4 md:w-[400px] lg:w-[500px] xl:w-[550px] lg:grid-cols-[.75fr_1fr]">
                             <li className="row-span-3">
                                 <NavigationMenuLink asChild>
                                     <Link
-                                        href="/"
+                                        href="https://google.com"
+                                        target="_blank"
                                         className="flex flex-col justify-end w-full h-full p-4 no-underline rounded-lg outline-none select-none bg-gradient-to-tr from-accent to-accent/50 focus:shadow-md"
                                     >
                                         <Icons.icon className="w-6 h-6" />
                                         <div className="my-2 text-lg font-normal">
-                                            Luro AI
+                                            Expert AI
                                         </div>
                                         <p className="text-sm text-muted-foreground">
-                                            Your ultimate social media management tool
+                                            Sua parceira em transformação digital com IA
                                         </p>
                                     </Link>
                                 </NavigationMenuLink>
                             </li>
-                            <Item title="Content Calendar" href="/features/content-calendar" icon={<CalendarRangeIcon className="w-5 h-5" />}>
-                                Plan and visualize your content strategy.
+                            <Item title="Consultoria Estratégica" href="https://google.com" icon={<BrainCircuitIcon className="w-5 h-5" />}>
+                                Diagnóstico completo e roadmap de implementação de IA.
                             </Item>
-                            <Item title="Hashtag Manager" href="/features/hashtag-manager" icon={<HashIcon className="w-5 h-5" />}>
-                                Research and track trending hashtags.
+                            <Item title="Implementação de Agentes" href="https://google.com" icon={<RocketIcon className="w-5 h-5" />}>
+                                Desenvolvimento de agentes inteligentes customizados.
                             </Item>
-                            <Item title="Competitor Analysis" href="/features/competitor-analysis" icon={<UsersIcon className="w-5 h-5" />}>
-                                Monitor and analyze competitor performance.
+                            <Item title="Soluções Enterprise" href="https://google.com" icon={<ShieldCheckIcon className="w-5 h-5" />}>
+                                Soluções corporativas com suporte dedicado.
                             </Item>
                         </ul>
                     </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <Link href="/pricing" legacyBehavior passHref>
+                    <Link href="https://google.com" target="_blank" legacyBehavior passHref>
                         <NavigationMenuLink className="h-10 px-4 py-2 text-sm font-normal rounded-md text-muted-foreground hover:text-foreground w-max hover:bg-none">
-                            Pricing
+                            Preços
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <Link href="/integrations" legacyBehavior passHref>
+                    <Link href="https://google.com" target="_blank" legacyBehavior passHref>
                         <NavigationMenuLink className="h-10 px-4 py-2 text-sm font-normal rounded-md text-muted-foreground hover:text-foreground w-max hover:bg-none">
-                            Integrations
+                            Integrações
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <NavigationMenuTrigger className="text-muted-foreground hover:text-foreground">
-                        Resources
+                        Recursos
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="grid w-[400px] gap-3 p-4 md:w-[400px] md:grid-cols-2 lg:w-[500px] xl:w-[500px]">
-                            <Item title="Blog" href="/resources/blog" icon={<Newspaper className="w-5 h-5" />}>
-                                Read our latest articles and updates.
+                            <Item title="Blog" href="https://google.com" icon={<Newspaper className="w-5 h-5" />}>
+                                Artigos sobre IA e transformação digital.
                             </Item>
-                            <Item title="Support" href="/resources/support" icon={<CircleHelp className="w-5 h-5" />}>
-                                Get help with any issues you may have.
+                            <Item title="Cases de Sucesso" href="https://google.com" icon={<UsersIcon className="w-5 h-5" />}>
+                                Conheça nossos projetos realizados.
+                            </Item>
+                            <Item title="Suporte" href="https://google.com" icon={<CircleHelp className="w-5 h-5" />}>
+                                Suporte técnico especializado.
+                            </Item>
+                            <Item title="Webinars" href="https://google.com" icon={<CalendarRangeIcon className="w-5 h-5" />}>
+                                Eventos e treinamentos sobre IA.
                             </Item>
                         </ul>
                     </NavigationMenuContent>
@@ -99,6 +106,8 @@ const Item = ({ title, href, children, icon, ...props }: Props) => {
                 <Link
                     passHref
                     href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     {...props}
                     className="grid grid-cols-[.15fr_1fr] select-none space-y-1 rounded-lg p-3 leading-none no-underline outline-none transition-colors hover:bg-accent/50 hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground group"
                 >

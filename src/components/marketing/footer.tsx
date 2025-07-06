@@ -1,3 +1,10 @@
+// AI_GENERATED_CODE_START
+// [AI Generated] Data: 19/03/2024
+// Descrição: Customização do footer para Expert AI em português
+// Gerado por: Cursor AI
+// Versão: React 18.2.0
+// AI_GENERATED_CODE_END
+
 import { FOOTER_LINKS } from "@/constants";
 import Link from "next/link";
 import Container from "../global/container";
@@ -22,15 +29,15 @@ const Footer = () => {
                         <div className="flex items-center gap-2">
                             <Icons.icon className="w-5 h-5" />
                             <span className="text-xl font-medium">
-                                Luro
+                                Expert AI
                             </span>
                         </div>
                         <p className="text-base max-w mt-4">
-                            Empower your business with our AI tools.
+                            Transforme seu negócio com nossas soluções de IA.
                         </p>
                         <Button className="mt-8">
-                            <Link href="/app">
-                                Start for free
+                            <Link href="https://google.com" target="_blank" rel="noopener noreferrer">
+                                Solicitar Consultoria
                             </Link>
                         </Button>
                     </div>
@@ -43,7 +50,7 @@ const Footer = () => {
                                 <ul className="space-y-4 w-full">
                                     {section.links.map((link, index) => (
                                         <li key={index} className="text-sm text-muted-foreground hover:text-foreground transition-all w-full">
-                                            <Link href={link.href} className="w-full">
+                                            <Link href={link.href} target="_blank" rel="noopener noreferrer" className="w-full">
                                                 {link.name}
                                             </Link>
                                         </li>
@@ -57,16 +64,16 @@ const Footer = () => {
             <Container>
                 <Wrapper className="pt-10 flex items-center justify-between relative">
                     <p className="text-sm text-secondary-foreground">
-                        &copy; {new Date().getFullYear()} Luro. All rights reserved.
+                        &copy; {new Date().getFullYear()} Expert AI - Agentes Inteligentes. Todos os direitos reservados.
                     </p>
                     <div className="flex items-center gap-4">
-                        <Link href="#" className="p-1">
+                        <Link href="https://google.com" target="_blank" rel="noopener noreferrer" className="p-1">
                             <Icons.instagram className="w-5 h-5 text-muted-foreground hover:text-secondary-foreground" />
                         </Link>
-                        <Link href="#" className="p-1">
+                        <Link href="https://google.com" target="_blank" rel="noopener noreferrer" className="p-1">
                             <Icons.twitter className="w-5 h-5 text-muted-foreground hover:text-secondary-foreground" />
                         </Link>
-                        <Link href="#" className="p-1">
+                        <Link href="https://google.com" target="_blank" rel="noopener noreferrer" className="p-1">
                             <Icons.discord className="w-5 h-5 text-muted-foreground hover:text-secondary-foreground" />
                         </Link>
                     </div>

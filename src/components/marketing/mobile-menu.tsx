@@ -46,9 +46,9 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                         onClick={() => setIsOpen(false)}
                         className="w-full px-4 py-2 text-lg hover:text-muted-foreground font-normal transition transform rounded-md cursor-pointer text-foreground text-start active:scale-95 hover:bg-muted/20 active:opacity-80"
                     >
-                        <Link href="/how-it-works" className="flex items-center w-full text-start">
+                        <Link href="https://google.com" target="_blank" rel="noopener noreferrer" className="flex items-center w-full text-start">
                             <UserCog className="w-4 h-4 mr-2" />
-                            How it works
+                            Como Funciona
                         </Link>
                     </li>
                     <Accordion type="single" collapsible className="w-full">
@@ -56,32 +56,32 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                             <AccordionTrigger className="px-4 py-2 text-lg hover:text-muted-foreground font-normal">
                                 <span className="flex items-center">
                                     <CopyCheck className="w-4 h-4 mr-2" />
-                                    Features
+                                    Serviços
                                 </span>
                             </AccordionTrigger>
                             <AccordionContent onClick={() => setIsOpen(false)} className="flex flex-col items-start gap-1 mt-1">
                                 <li
                                     className="w-full px-4 py-2 text-lg font-normal transition transform rounded-md cursor-pointer text-foreground/80 hover:text-muted-foreground text-start active:scale-95 hover:bg-muted/20 active:opacity-80"
                                 >
-                                    <Link href="/" className="flex items-center w-full text-start">
+                                    <Link href="https://google.com" target="_blank" rel="noopener noreferrer" className="flex items-center w-full text-start">
                                         <Captions className="w-4 h-4 mr-2" />
-                                        Caption Generation
+                                        Consultoria IA
                                     </Link>
                                 </li>
                                 <li
                                     className="w-full px-4 py-2 text-lg font-normal transition transform rounded-md cursor-pointer text-foreground/80 hover:text-muted-foreground text-start active:scale-95 hover:bg-muted/20 active:opacity-80"
                                 >
-                                    <Link href="/" className="flex items-center w-full text-start">
+                                    <Link href="https://google.com" target="_blank" rel="noopener noreferrer" className="flex items-center w-full text-start">
                                         <CalendarClock className="w-4 h-4 mr-2" />
-                                        Post Scheduling
+                                        Implementação
                                     </Link>
                                 </li>
                                 <li
                                     className="w-full px-4 py-2 text-lg font-normal transition transform rounded-md cursor-pointer text-foreground/80 hover:text-muted-foreground text-start active:scale-95 hover:bg-muted/20 active:opacity-80"
                                 >
-                                    <Link href="/" className="flex items-center w-full text-start">
+                                    <Link href="https://google.com" target="_blank" rel="noopener noreferrer" className="flex items-center w-full text-start">
                                         <LineChart className="w-4 h-4 mr-2" />
-                                        Analytics Dashboard
+                                        Soluções Enterprise
                                     </Link>
                                 </li>
                             </AccordionContent>
@@ -91,18 +91,18 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                         onClick={() => setIsOpen(false)}
                         className="w-full px-4 py-2 text-lg hover:text-muted-foreground font-normal transition transform rounded-md cursor-pointer text-foreground text-start active:scale-95 hover:bg-muted/20 active:opacity-80"
                     >
-                        <Link href="/" className="flex items-center w-full text-start">
+                        <Link href="https://google.com" target="_blank" rel="noopener noreferrer" className="flex items-center w-full text-start">
                             <Gem className="w-4 h-4 mr-2" />
-                            Pricing
+                            Preços
                         </Link>
                     </li>
                     <li
                         onClick={() => setIsOpen(false)}
                         className="w-full px-4 py-2 text-lg hover:text-muted-foreground font-normal transition transform rounded-md cursor-pointer text-foreground text-start active:scale-95 hover:bg-muted/20 active:opacity-80"
                     >
-                        <Link href="/" className="flex items-center w-full text-start">
+                        <Link href="https://google.com" target="_blank" rel="noopener noreferrer" className="flex items-center w-full text-start">
                             <Waypoints className="w-4 h-4 mr-2" />
-                            Integrations
+                            Integrações
                         </Link>
                     </li>
                     <Accordion type="single" collapsible className="w-full">
@@ -110,14 +110,14 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                             <AccordionTrigger className="px-4 py-2 text-lg hover:text-muted-foreground font-normal">
                                 <span className="flex items-center">
                                     <Layers3 className="w-4 h-4 mr-2" />
-                                    Resources
+                                    Recursos
                                 </span>
                             </AccordionTrigger>
                             <AccordionContent onClick={() => setIsOpen(false)} className="flex flex-col items-start gap-1 mt-1">
                                 <li
                                     className="w-full px-4 py-2 text-lg font-normal transition transform rounded-md cursor-pointer text-foreground/80 hover:text-muted-foreground text-start active:scale-95 hover:bg-muted/20 active:opacity-80"
                                 >
-                                    <Link href="/" className="flex items-center w-full text-start">
+                                    <Link href="https://google.com" target="_blank" rel="noopener noreferrer" className="flex items-center w-full text-start">
                                         <Newspaper className="w-4 h-4 mr-2" />
                                         Blog
                                     </Link>
@@ -125,25 +125,25 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
                                 <li
                                     className="w-full px-4 py-2 text-lg font-normal transition transform rounded-md cursor-pointer text-foreground/80 hover:text-muted-foreground text-start active:scale-95 hover:bg-muted/20 active:opacity-80"
                                 >
-                                    <Link href="/" className="flex items-center w-full text-start">
+                                    <Link href="https://google.com" target="_blank" rel="noopener noreferrer" className="flex items-center w-full text-start">
                                         <FileText className="w-4 h-4 mr-2" />
-                                        Case Studies
+                                        Cases de Sucesso
                                     </Link>
                                 </li>
                                 <li
                                     className="w-full px-4 py-2 text-lg font-normal transition transform rounded-md cursor-pointer text-foreground/80 hover:text-muted-foreground text-start active:scale-95 hover:bg-muted/20 active:opacity-80"
                                 >
-                                    <Link href="/" className="flex items-center w-full text-start">
+                                    <Link href="https://google.com" target="_blank" rel="noopener noreferrer" className="flex items-center w-full text-start">
                                         <Box className="w-4 h-4 mr-2" />
-                                        Tools
+                                        Ferramentas
                                     </Link>
                                 </li>
                                 <li
                                     className="w-full px-4 py-2 text-lg font-normal transition transform rounded-md cursor-pointer text-foreground/80 hover:text-muted-foreground text-start active:scale-95 hover:bg-muted/20 active:opacity-80"
                                 >
-                                    <Link href="/" className="flex items-center w-full text-start">
+                                    <Link href="https://google.com" target="_blank" rel="noopener noreferrer" className="flex items-center w-full text-start">
                                         <CircleHelp className="w-4 h-4 mr-2" />
-                                        Support
+                                        Suporte
                                     </Link>
                                 </li>
                             </AccordionContent>

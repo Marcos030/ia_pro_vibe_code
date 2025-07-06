@@ -4,33 +4,33 @@ import React from "react";
 
 export const PERKS = [
     {
-        icon: ZapIcon,
-        title: "Fast and Efficient",
-        description: "Experience quick and seamless content creation with our optimized AI tools."
+        icon: BrainCircuitIcon,
+        title: "Consultoria Especializada",
+        description: "Equipe de especialistas em IA com anos de experiência em implementação de soluções inteligentes."
     },
     {
         icon: ChartSplineIcon,
-        title: "Insightful Analytics",
-        description: "Gain valuable insights and analytics to enhance your social media strategy."
+        title: "Análise Estratégica",
+        description: "Diagnóstico completo do seu negócio para identificar oportunidades de automação com IA."
     },
     {
         icon: LifeBuoyIcon,
-        title: "24/7 Support",
-        description: "Our team is available around the clock to assist with any issues or questions."
+        title: "Suporte Dedicado",
+        description: "Acompanhamento personalizado durante todo o processo de implementação e pós-venda."
     },
     {
         icon: PaletteIcon,
-        title: "Customizable Solutions",
-        description: "Tailor the tools and features to fit your unique social media needs."
+        title: "Soluções Customizadas",
+        description: "Desenvolvimento de agentes inteligentes específicos para as necessidades do seu negócio."
     },
     {
         icon: ShieldCheckIcon,
-        title: "Secure and Reliable",
-        description: "Trust our platform to keep your data safe and ensure consistent performance."
+        title: "Segurança e Compliance",
+        description: "Implementação segura seguindo as melhores práticas de proteção de dados e regulamentações."
     },
     {
         icon: WaypointsIcon,
-        title: "Seamless Integration",
-        description: "Easily integrate with your existing social media platforms and tools."
+        title: "Integração Completa",
+        description: "Conectamos seus sistemas existentes com as mais avançadas tecnologias de IA disponíveis."
     },
 ];
